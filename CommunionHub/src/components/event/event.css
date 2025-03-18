@@ -1,0 +1,150 @@
+.two {
+  background-color: red;
+  background: linear-gradient(135deg, #f40505, #413e3e);
+}
+.box {
+  background-color: grey;
+  background-color: #1775d200;
+  background: linear-gradient(135deg, #f40505, #413e3e);
+
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  /* align-items: center; */
+  /* border: 2px solid red; */
+}
+.container {
+  width: 60%;
+  height: 470px;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 9px;
+  overflow-y: scroll;
+  margin: 20px 30px;
+}
+.over {
+  overflow-y: scroll;
+  height: 290px;
+  padding: 2px;
+  margin: 10px;
+}
+h2 {
+  text-align: center;
+  font-family: 'Tektur', sans-serif;
+  font-optical-sizing: auto;
+  letter-spacing: 1.5px;
+  /* margin-top: 10px; */
+  color: rgb(82, 78, 78);
+}
+.search-bar {
+  width: 99%;
+  padding: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  accent-color: red;
+}
+.event {
+  background: #e41616;
+  background: linear-gradient(135deg, #f40505, #413e3e);
+
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+  box-shadow: 0 0 5px rgba(71, 69, 69, 0.803);
+  /* border: 2px solid red; */
+}
+.event h3 {
+  margin: 0;
+  color: #333;
+  font-family: 'Tektur', sans-serif;
+  font-optical-sizing: auto;
+  letter-spacing: 1.3px;
+}
+.event p {
+  margin: 5px 0;
+  color: #efecec;
+  font-size: 14px;
+}
+.add-btn {
+  width: 100%;
+  padding: 10px;
+  background: red;
+
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.add-btn:hover {
+  background: rgb(97, 92, 92);
+}
+
+/* Modal Overlay */
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.635); /* Slight dark overlay */
+  display: flex;
+  justify-content: flex-end; /* Align modal to the right */
+  align-items: flex-start; /* Align modal to the top */
+  padding: 20px;
+}
+
+/* Modal Box */
+.modal-content {
+  background: white;
+  width: 350px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  right: 60px;
+  top: 85px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #555;
+}
+
+.close:hover {
+  color: #000;
+}
+
+/* Input Fields */
+.modal-content input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  accent-color: red;
+}
+
+.save-btn {
+  color: white;
+  background: grey;
+
+  padding: 10px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.save-btn:hover {
+  background: red;
+}

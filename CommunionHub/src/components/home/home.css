@@ -1,0 +1,114 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+  align-items: center;
+  text-align: center;
+  /* border: 2px solid rgb(8, 236, 42); */
+}
+.main .heading {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-left: 98px;
+  margin-top: 10px;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  width: 30%;
+  text-align: left;
+}
+.logo img {
+  width: 35%;
+  margin-left: 40px;
+}
+
+.h5div {
+  display: flex;
+  align-items: center;
+  margin: 80px auto 0px;
+  text-align: center;
+  width: 50%;
+}
+
+.h5 {
+  /* display: flex; */
+  color: #fff;
+  margin: 0 auto;
+  letter-spacing: 2px;
+
+  font-size: 50px;
+  font-family: 'Tektur', sans-serif;
+  font-optical-sizing: auto;
+}
+.pdiv {
+  /* margin-top: -140px; */
+  width: 40%;
+  display: flex;
+  /* border: 2px solid rgb(8, 236, 42); */
+  margin: 20px auto;
+}
+.pdiv p {
+  margin: 0 auto;
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 28px;
+  font-size: 12px;
+  font-family: 'Tektur', sans-serif;
+  font-optical-sizing: auto;
+}
+.find-btn {
+  padding: 10px 30px;
+  background-color: rgb(205, 191, 191);
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+.find-btn:hover {
+  background-color: grey;
+  color: #fff;
+}
+
+/* ====== RESPONSIVE STYLES ====== */
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+  .main {
+    padding: 30px 15px;
+  }
+
+  .heading {
+    width: 70%;
+  }
+
+  .pdiv {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .find-btn {
+    font-size: 16px;
+    padding: 10px 16px;
+  }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+  .heading {
+    width: 80%;
+  }
+
+  .pdiv {
+    font-size: 14px;
+    width: 95%;
+  }
+
+  .find-btn {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+}
